@@ -25,6 +25,27 @@ body {
   padding-left: 106px;
 }
 
+.header-details h1 {
+  color: black;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0% {
+    color: black;
+  }
+  25% {
+    color: blue;
+  }
+  50% {
+    color: green;
+  }
+  100% {
+    color: white;
+  }
+}
+
 .header-info {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -200,6 +221,11 @@ hr {
 }
 .social-links i {
   padding: 15px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: white;
 }
 /* Footer Sectoin End */
 
