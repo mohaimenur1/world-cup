@@ -33,7 +33,7 @@ body {
 
 @keyframes example {
   0% {
-    color: black;
+    color: yellow;
   }
   25% {
     color: blue;
